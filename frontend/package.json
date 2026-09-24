@@ -1,0 +1,9 @@
+{
+  "name": "music-catalog-90s-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interface noventista para o catalogo de musicas",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#101010" />
+    <title>Mixtape 2000 // Catálogo de músicas</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="scanlines" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Mixtape 2000 início">
+        <span class="brand-mark">MIX</span>
+        <span>Mixtape<br /><b>2000</b></span>
+      </a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a class="active" href="#catalogo">CATÁLOGO</a>
+        <a href="#decadas">DÉCADAS</a>
+        <a href="#sobre">SOBRE</a>
+      </nav>
+      <div class="connection"><span class="dot"></span> ONLINE</div>
+    </header>
+
+    <main id="top" class="page-shell">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">★ transmissão digital desde 1950 ★</p>
+          <h1 id="hero-title">Toda era<br /><span>tem um som.</span></h1>
+          <p class="hero-text">Uma coleção portátil de hits, clássicos e descobertas. Aperte o play e viaje pelo catálogo.</p>
+          <a class="button button-yellow" href="#catalogo">EXPLORAR FITAS <span>→</span></a>
+        </div>
+        <div class="hero-art" aria-label="Ilustração de uma fita cassete">
+          <div class="star star-one">✦</div>
+          <div class="star star-two">✦</div>
+          <div class="cassette">
+            <div class="cassette-label">MIXTAPE 2000</div>
+            <div class="cassette-window"><span></span><span></span></div>
+            <div class="cassette-line"></div>
+            <div class="cassette-note">SIDE A / SIDE B</div>
+          </div>
+          <div class="hero-sticker">SÓ<br />HITS!</div>
+        </div>
+      </section>
+
+      <section class="stats-strip" aria-label="Resumo do catálogo">
+        <div><strong id="total-count">--</strong><span>FAIXAS</span></div>
+        <div><strong id="decade-count">--</strong><span>DÉCADAS</span></div>
+        <div><strong id="genre-count">--</strong><span>GÊNEROS</span></div>
+        <div class="status-message" id="status-message">conectando à central...</div>
+      </section>
+
+      <section id="catalogo" class="catalog-section" aria-labelledby="catalog-title">
+        <div class="section-heading">
+          <div><p class="section-kicker">LADO A // ARQUIVO PRINCIPAL</p><h2 id="catalog-title">Garimpe seu próximo favorito</h2></div>
+          <div class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+        <div class="toolbar">
+          <label class="search-box"><span>⌕</span><input id="search-input" type="search" placeholder="procurar por título ou artista..." /></label>
+          <label class="select-box"><span>DÉCADA</span><select id="decade-select"><option value="all">TODAS</option></select></label>
+          <label class="select-box"><span>GÊNERO</span><select id="genre-select"><option value="all">TODOS</option></select></label>
+        </div>
+        <div id="music-grid" class="music-grid" aria-live="polite">
+          <div class="loading-card">CARREGANDO FITAS<span>▓▓▓░░</span></div>
+        </div>
+        <p id="empty-state" class="empty-state" hidden>Nenhuma faixa encontrada. Tente outra busca.</p>
+      </section>
+
+      <section id="decadas" class="decades-section" aria-labelledby="decades-title">
+        <div><p class="section-kicker">PLAYLISTS // POR GERAÇÃO</p><h2 id="decades-title">Escolha uma frequência</h2></div>
+        <div id="decade-pills" class="decade-pills"></div>
+      </section>
+
+      <section id="sobre" class="about-section">
+        <div class="about-copy"><p class="section-kicker">SOBRE A ESTAÇÃO</p><h2>Feito para quem ainda rebobina.</h2><p>Um catálogo musical com alma de locadora, neon de fliperama e espaço para cada fase da sua trilha sonora.</p></div>
+        <div class="guestbook"><span>GUESTBOOK</span><strong>♥ deixe sua marca</strong><small>mixtape_2000 // 24.09.99</small></div>
+      </section>
+    </main>
+
+    <footer class="player" aria-label="Player de música">
+      <div class="now-playing"><div class="mini-art">♫</div><div><span>PRÉVIA SINTETIZADA</span><strong id="player-title">Escolha uma faixa</strong><small id="player-artist">a rádio está esperando...</small></div></div>
+      <div class="player-controls"><button id="previous-button" type="button" aria-label="Faixa anterior">|◀</button><button id="play-button" class="play-button" type="button" aria-label="Reproduzir">▶</button><button id="next-button" type="button" aria-label="Próxima faixa">▶|</button></div>
+      <div class="progress-wrap"><span id="current-time">00:00</span><div class="progress"><span id="progress-bar"></span></div><span id="track-time">00:00</span></div>
+      <button id="favorite-button" class="heart-button" type="button" aria-label="Favoritar faixa">♡</button>
+    </footer>
+    <div id="video-modal" class="video-modal" hidden>
+      <div class="video-dialog" role="dialog" aria-modal="true" aria-labelledby="video-title">
+        <div class="video-header"><strong id="video-title">TOCANDO NO YOUTUBE</strong><button id="close-video" type="button" aria-label="Fechar vídeo">×</button></div>
+        <iframe id="youtube-frame" title="Player do YouTube" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,506 @@
+[
+  {
+    "id": 1,
+    "titulo": "Rock Around the Clock",
+    "artista": "Bill Haley & His Comets",
+    "ano": 1954,
+    "genero": "Rock and Roll",
+    "duracaoSegundos": 130,
+    "youtubeUrl": "https://www.youtube.com/watch?v=VsAlSuEG26A&list=RDVsAlSuEG26A&start_radio=1"
+  },
+  {
+    "id": 2,
+    "titulo": "Hound Dog",
+    "artista": "Elvis Presley",
+    "ano": 1956,
+    "genero": "Rock and Roll",
+    "duracaoSegundos": 136,
+    "youtubeUrl": "https://www.youtube.com/watch?v=-eHJ12Vhpyc&list=RD-eHJ12Vhpyc&start_radio=1"
+  },
+  {
+    "id": 3,
+    "titulo": "That'll Be the Day",
+    "artista": "Buddy Holly",
+    "ano": 1957,
+    "genero": "Rock and Roll",
+    "duracaoSegundos": 145,
+    "youtubeUrl": "https://www.youtube.com/watch?v=M4TfFTmITLo&list=RDM4TfFTmITLo&start_radio=1"
+  },
+  {
+    "id": 4,
+    "titulo": "Great Balls of Fire",
+    "artista": "Jerry Lee Lewis",
+    "ano": 1957,
+    "genero": "Rock and Roll",
+    "duracaoSegundos": 128,
+    "youtubeUrl": "https://www.youtube.com/watch?v=0VJ1NuAbEBI&list=RD0VJ1NuAbEBI&start_radio=1"
+  },
+  {
+    "id": 5,
+    "titulo": "Johnny B. Goode",
+    "artista": "Chuck Berry",
+    "ano": 1958,
+    "genero": "Rock and Roll",
+    "duracaoSegundos": 161,
+    "youtubeUrl": "https://www.youtube.com/watch?v=s6kqFXDL8RQ&list=RDs6kqFXDL8RQ&start_radio=1"
+  },
+  {
+    "id": 6,
+    "titulo": "La Bamba",
+    "artista": "Ritchie Valens",
+    "ano": 1958,
+    "genero": "Rock and Roll",
+    "duracaoSegundos": 130,
+    "youtubeUrl": "https://www.youtube.com/watch?v=Coy8Hoa1DNw&list=RDCoy8Hoa1DNw&start_radio=1"
+  },
+  {
+    "id": 7,
+    "titulo": "Mack the Knife",
+    "artista": "Bobby Darin",
+    "ano": 1959,
+    "genero": "Jazz/Pop",
+    "duracaoSegundos": 190,
+    "youtubeUrl": "https://www.youtube.com/watch?v=557lFG-qq5g&list=RD557lFG-qq5g&start_radio=1"
+  },
+  {
+    "id": 8,
+    "titulo": "What'd I Say",
+    "artista": "Ray Charles",
+    "ano": 1959,
+    "genero": "R&B",
+    "duracaoSegundos": 355,
+    "youtubeUrl": "https://www.youtube.com/watch?v=6uTDa3771HM&list=RD6uTDa3771HM&start_radio=1"
+  },
+  {
+    "id": 9,
+    "titulo": "The Twist",
+    "artista": "Chubby Checker",
+    "ano": 1960,
+    "genero": "Rock and Roll",
+    "duracaoSegundos": 150,
+    "youtubeUrl": "https://www.youtube.com/watch?v=-CCgDvUM4TM&list=RD-CCgDvUM4TM&start_radio=1"
+  },
+  {
+    "id": 10,
+    "titulo": "I Want to Hold Your Hand",
+    "artista": "The Beatles",
+    "ano": 1963,
+    "genero": "Rock",
+    "duracaoSegundos": 145,
+    "youtubeUrl": "https://www.youtube.com/watch?v=v1HDt1tknTc&list=RDv1HDt1tknTc&start_radio=1"
+  },
+  {
+    "id": 11,
+    "titulo": "(I Can't Get No) Satisfaction",
+    "artista": "The Rolling Stones",
+    "ano": 1965,
+    "genero": "Rock",
+    "duracaoSegundos": 224,
+    "youtubeUrl": "https://www.youtube.com/watch?v=nrIPxlFzDi0&list=RDnrIPxlFzDi0&start_radio=1"
+  },
+  {
+    "id": 12,
+    "titulo": "My Girl",
+    "artista": "The Temptations",
+    "ano": 1964,
+    "genero": "Soul",
+    "duracaoSegundos": 165,
+    "youtubeUrl": "https://www.youtube.com/watch?v=mhNEGPJt8o8&list=RDmhNEGPJt8o8&start_radio=1"
+  },
+  {
+    "id": 13,
+    "titulo": "Respect",
+    "artista": "Aretha Franklin",
+    "ano": 1967,
+    "genero": "Soul",
+    "duracaoSegundos": 147,
+    "youtubeUrl": "https://www.youtube.com/watch?v=A134hShx_gw&list=RDA134hShx_gw&start_radio=1"
+  },
+  {
+    "id": 14,
+    "titulo": "Hey Jude",
+    "artista": "The Beatles",
+    "ano": 1968,
+    "genero": "Rock",
+    "duracaoSegundos": 431,
+    "youtubeUrl": "https://www.youtube.com/watch?v=A_MjCqQoLLA&list=RDA_MjCqQoLLA&start_radio=1"
+  },
+  {
+    "id": 15,
+    "titulo": "Aquarela do Brasil",
+    "artista": "Ary Barroso (interpretação Elis Regina)",
+    "ano": 1968,
+    "genero": "MPB",
+    "duracaoSegundos": 200,
+    "youtubeUrl": "https://www.youtube.com/watch?v=75tdgtiP5Ls&list=RD75tdgtiP5Ls&start_radio=1"
+  },
+  {
+    "id": 16,
+    "titulo": "Fortunate Son",
+    "artista": "Creedence Clearwater Revival",
+    "ano": 1969,
+    "genero": "Rock",
+    "duracaoSegundos": 140,
+    "youtubeUrl": "https://www.youtube.com/watch?v=3RmQTYLD398&list=RD3RmQTYLD398&start_radio=1"
+  },
+  {
+    "id": 17,
+    "titulo": "Aquarius / Let the Sunshine In",
+    "artista": "The 5th Dimension",
+    "ano": 1969,
+    "genero": "Pop",
+    "duracaoSegundos": 245,
+    "youtubeUrl": "https://www.youtube.com/watch?v=VlrQ-bOzpkQ&list=RDVlrQ-bOzpkQ&start_radio=1"
+  },
+  {
+    "id": 18,
+    "titulo": "Bohemian Rhapsody",
+    "artista": "Queen",
+    "ano": 1975,
+    "genero": "Rock",
+    "duracaoSegundos": 355,
+    "youtubeUrl": "https://www.youtube.com/watch?v=fJ9rUzIMcZQ&list=RDfJ9rUzIMcZQ&start_radio=1"
+  },
+  {
+    "id": 19,
+    "titulo": "Stairway to Heaven",
+    "artista": "Led Zeppelin",
+    "ano": 1971,
+    "genero": "Rock",
+    "duracaoSegundos": 482,
+    "youtubeUrl": "https://www.youtube.com/watch?v=QkF3oxziUI4&list=RDQkF3oxziUI4&start_radio=1"
+  },
+  {
+    "id": 20,
+    "titulo": "Imagine",
+    "artista": "John Lennon",
+    "ano": 1971,
+    "genero": "Rock/Pop",
+    "duracaoSegundos": 183,
+    "youtubeUrl": "https://www.youtube.com/watch?v=OAJDDWrdg2E&list=RDOAJDDWrdg2E&start_radio=1"
+  },
+  {
+    "id": 21,
+    "titulo": "Stayin' Alive",
+    "artista": "Bee Gees",
+    "ano": 1977,
+    "genero": "Disco",
+    "duracaoSegundos": 285,
+    "youtubeUrl": "https://www.youtube.com/watch?v=I_izvAbhExY&list=RDI_izvAbhExY&start_radio=1"
+  },
+  {
+    "id": 22,
+    "titulo": "Aguas de Março",
+    "artista": "Elis Regina & Tom Jobim",
+    "ano": 1974,
+    "genero": "MPB",
+    "duracaoSegundos": 175,
+    "youtubeUrl": "https://www.youtube.com/watch?v=aKvwnHiJSdk&list=RDaKvwnHiJSdk&start_radio=1"
+  },
+  {
+    "id": 23,
+    "titulo": "I Will Survive",
+    "artista": "Gloria Gaynor",
+    "ano": 1978,
+    "genero": "Disco",
+    "duracaoSegundos": 198,
+    "youtubeUrl": "https://www.youtube.com/watch?v=6dYWe1c3OyU&list=RD6dYWe1c3OyU&start_radio=1"
+  },
+  {
+    "id": 24,
+    "titulo": "Another Brick in the Wall",
+    "artista": "Pink Floyd",
+    "ano": 1979,
+    "genero": "Rock",
+    "duracaoSegundos": 238,
+    "youtubeUrl": "https://www.youtube.com/watch?v=i9-CrzyEiiY&list=RDi9-CrzyEiiY&start_radio=1"
+  },
+  {
+    "id": 25,
+    "titulo": "Billie Jean",
+    "artista": "Michael Jackson",
+    "ano": 1983,
+    "genero": "Pop",
+    "duracaoSegundos": 294,
+    "youtubeUrl": "https://www.youtube.com/watch?v=Zi_XLOBDo_Y&list=RDZi_XLOBDo_Y&start_radio=1"
+  },
+  {
+    "id": 26,
+    "titulo": "Like a Virgin",
+    "artista": "Madonna",
+    "ano": 1984,
+    "genero": "Pop",
+    "duracaoSegundos": 218,
+    "youtubeUrl": "https://www.youtube.com/watch?v=s__rX_WL100&list=RDs__rX_WL100&start_radio=1"
+  },
+  {
+    "id": 27,
+    "titulo": "Sweet Child O' Mine",
+    "artista": "Guns N' Roses",
+    "ano": 1987,
+    "genero": "Rock",
+    "duracaoSegundos": 356,
+    "youtubeUrl": "https://www.youtube.com/watch?v=1w7OgIMMRc4&list=RD1w7OgIMMRc4&start_radio=1"
+  },
+  {
+    "id": 28,
+    "titulo": "Every Breath You Take",
+    "artista": "The Police",
+    "ano": 1983,
+    "genero": "Rock/Pop",
+    "duracaoSegundos": 253,
+    "youtubeUrl": "https://www.youtube.com/watch?v=OMOGaugKpzs&list=RDOMOGaugKpzs&start_radio=1"
+  },
+  {
+    "id": 29,
+    "titulo": "Faroeste Caboclo",
+    "artista": "Legião Urbana",
+    "ano": 1987,
+    "genero": "Rock Nacional",
+    "duracaoSegundos": 543,
+    "youtubeUrl": "https://www.youtube.com/watch?v=qBIxI580dI8&list=RDqBIxI580dI8&start_radio=1"
+  },
+  {
+    "id": 30,
+    "titulo": "Take on Me",
+    "artista": "a-ha",
+    "ano": 1985,
+    "genero": "Synth-pop",
+    "duracaoSegundos": 225,
+    "youtubeUrl": "https://www.youtube.com/watch?v=MIgK3zOk0zg&list=RDMIgK3zOk0zg&start_radio=1"
+  },
+  {
+    "id": 31,
+    "titulo": "Livin' on a Prayer",
+    "artista": "Bon Jovi",
+    "ano": 1986,
+    "genero": "Rock",
+    "duracaoSegundos": 249,
+    "youtubeUrl": "https://www.youtube.com/watch?v=lDK9QqIzhwk&list=RDlDK9QqIzhwk&start_radio=1"
+  },
+  {
+    "id": 32,
+    "titulo": "Africa",
+    "artista": "Toto",
+    "ano": 1982,
+    "genero": "Pop Rock",
+    "duracaoSegundos": 295,
+    "youtubeUrl": "https://www.youtube.com/watch?v=FTQbiNvZqaY&list=RDFTQbiNvZqaY&start_radio=1"
+  },
+  {
+    "id": 33,
+    "titulo": "Smells Like Teen Spirit",
+    "artista": "Nirvana",
+    "ano": 1991,
+    "genero": "Grunge",
+    "duracaoSegundos": 301,
+    "youtubeUrl": "https://www.youtube.com/watch?v=hTWKbfoikeg&list=RDhTWKbfoikeg&start_radio=1"
+  },
+  {
+    "id": 34,
+    "titulo": "Wonderwall",
+    "artista": "Oasis",
+    "ano": 1995,
+    "genero": "Rock",
+    "duracaoSegundos": 258,
+    "youtubeUrl": "https://www.youtube.com/watch?v=FVdjZYfDuLE&list=RDFVdjZYfDuLE&start_radio=1"
+  },
+  {
+    "id": 35,
+    "titulo": "I Will Always Love You",
+    "artista": "Whitney Houston",
+    "ano": 1992,
+    "genero": "Pop/R&B",
+    "duracaoSegundos": 273,
+    "youtubeUrl": "https://www.youtube.com/watch?v=3JWTaaS7LdU&list=RD3JWTaaS7LdU&start_radio=1"
+  },
+  {
+    "id": 36,
+    "titulo": "Baby One More Time",
+    "artista": "Britney Spears",
+    "ano": 1998,
+    "genero": "Pop",
+    "duracaoSegundos": 211,
+    "youtubeUrl": "https://www.youtube.com/watch?v=S9D3-36dgAw&list=RDS9D3-36dgAw&start_radio=1"
+  },
+  {
+    "id": 37,
+    "titulo": "Garota de Ipanema (releitura)",
+    "artista": "Vários Intérpretes",
+    "ano": 1990,
+    "genero": "Bossa Nova",
+    "duracaoSegundos": 175,
+    "youtubeUrl": "https://www.youtube.com/watch?v=ITsKmGfiStY&list=PLbz-TOTOpqoqWUpLw0zBIUy86raEBsTRn"
+  },
+  {
+    "id": 38,
+    "titulo": "Losing My Religion",
+    "artista": "R.E.M.",
+    "ano": 1991,
+    "genero": "Alternativo",
+    "duracaoSegundos": 269,
+    "youtubeUrl": "https://www.youtube.com/watch?v=OKvCV8MFIaw&list=RDOKvCV8MFIaw&start_radio=1"
+  },
+  {
+    "id": 39,
+    "titulo": "No Woman No Cry (ao vivo, popularizada)",
+    "artista": "Bob Marley & The Wailers",
+    "ano": 1990,
+    "genero": "Reggae",
+    "duracaoSegundos": 267,
+    "youtubeUrl": "https://www.youtube.com/watch?v=mZ6VezKMoRY&list=RDmZ6VezKMoRY&start_radio=1"
+  },
+  {
+    "id": 40,
+    "titulo": "Torn",
+    "artista": "Natalie Imbruglia",
+    "ano": 1997,
+    "genero": "Pop Rock",
+    "duracaoSegundos": 260,
+    "youtubeUrl": "https://www.youtube.com/watch?v=VV1XWJN3nJo&list=RDVV1XWJN3nJo&start_radio=1"
+  },
+  {
+    "id": 41,
+    "titulo": "Crazy in Love",
+    "artista": "Beyoncé ft. Jay-Z",
+    "ano": 2003,
+    "genero": "R&B/Pop",
+    "duracaoSegundos": 236,
+    "youtubeUrl": "https://www.youtube.com/watch?v=ViwtNLUqkMY&list=RDViwtNLUqkMY&start_radio=1"
+  },
+  {
+    "id": 42,
+    "titulo": "Hey Ya!",
+    "artista": "OutKast",
+    "ano": 2003,
+    "genero": "Hip Hop/Funk",
+    "duracaoSegundos": 235,
+    "youtubeUrl": "https://www.youtube.com/watch?v=PWgvGjAhvIw&list=RDPWgvGjAhvIw&start_radio=1"
+  },
+  {
+    "id": 43,
+    "titulo": "In the End",
+    "artista": "Linkin Park",
+    "ano": 2000,
+    "genero": "Rock/Rap",
+    "duracaoSegundos": 216,
+    "youtubeUrl": "https://www.youtube.com/watch?v=eVTXPUF4Oz4&list=RDeVTXPUF4Oz4&start_radio=1"
+  },
+  {
+    "id": 44,
+    "titulo": "Ho Hey",
+    "artista": "The Lumineers",
+    "ano": 2012,
+    "genero": "Folk",
+    "duracaoSegundos": 163,
+    "youtubeUrl": "https://www.youtube.com/watch?v=zvCBSSwgtg4&list=RDzvCBSSwgtg4&start_radio=1"
+  },
+  {
+    "id": 45,
+    "titulo": "Garota Nota 100",
+    "artista": "Tati Quebra Barraco",
+    "ano": 2003,
+    "genero": "Funk",
+    "duracaoSegundos": 190,
+    "youtubeUrl": ""
+  },
+  {
+    "id": 46,
+    "titulo": "Ai Se Eu Te Pego",
+    "artista": "Michel Teló",
+    "ano": 2011,
+    "genero": "Sertanejo",
+    "duracaoSegundos": 178,
+    "youtubeUrl": ""
+  },
+  {
+    "id": 47,
+    "titulo": "Toxic",
+    "artista": "Britney Spears",
+    "ano": 2003,
+    "genero": "Pop",
+    "duracaoSegundos": 198,
+    "youtubeUrl": ""
+  },
+  {
+    "id": 48,
+    "titulo": "Someone Like You",
+    "artista": "Adele",
+    "ano": 2011,
+    "genero": "Pop/Soul",
+    "duracaoSegundos": 285,
+    "youtubeUrl": "https://www.youtube.com/watch?v=hLQl3WQQoQ0&list=RDhLQl3WQQoQ0&start_radio=1"
+  },
+  {
+    "id": 49,
+    "titulo": "Blinding Lights",
+    "artista": "The Weeknd",
+    "ano": 2020,
+    "genero": "Synth-pop",
+    "duracaoSegundos": 200,
+    "youtubeUrl": "https://www.youtube.com/watch?v=4NRXx6U8ABQ&list=RD4NRXx6U8ABQ&start_radio=1"
+  },
+  {
+    "id": 50,
+    "titulo": "drivers license",
+    "artista": "Olivia Rodrigo",
+    "ano": 2021,
+    "genero": "Pop",
+    "duracaoSegundos": 242,
+    "youtubeUrl": "https://www.youtube.com/watch?v=ttRz03c208g&list=RDttRz03c208g&start_radio=1"
+  },
+  {
+    "id": 51,
+    "titulo": "As It Was",
+    "artista": "Harry Styles",
+    "ano": 2022,
+    "genero": "Pop",
+    "duracaoSegundos": 167,
+    "youtubeUrl": "https://www.youtube.com/watch?v=Qfm6nfz1QNQ&list=RDQfm6nfz1QNQ&start_radio=1"
+  },
+  {
+    "id": 52,
+    "titulo": "Envolver",
+    "artista": "Anitta",
+    "ano": 2021,
+    "genero": "Pop/Reggaeton",
+    "duracaoSegundos": 172,
+    "youtubeUrl": ""
+  },
+  {
+    "id": 53,
+    "titulo": "Evidências (regravação em alta)",
+    "artista": "Chitãozinho & Xororó",
+    "ano": 2021,
+    "genero": "Sertanejo",
+    "duracaoSegundos": 260,
+    "youtubeUrl": ""
+  },
+  {
+    "id": 54,
+    "titulo": "Levitating",
+    "artista": "Dua Lipa",
+    "ano": 2020,
+    "genero": "Pop/Disco",
+    "duracaoSegundos": 203,
+    "youtubeUrl": "https://www.youtube.com/watch?v=ovG2QwiObhk&list=RDovG2QwiObhk&start_radio=1"
+  },
+  {
+    "id": 55,
+    "titulo": "Ordinary",
+    "artista": "Alex Warren",
+    "ano": 2024,
+    "genero": "Pop",
+    "duracaoSegundos": 187,
+    "youtubeUrl": "https://www.youtube.com/watch?v=A8dH4cKGa6s&list=RDA8dH4cKGa6s&start_radio=1"
+  },
+  {
+    "id": 56,
+    "titulo": "Die With A Smile",
+    "artista": "Lady Gaga & Bruno Mars",
+    "ano": 2024,
+    "genero": "Pop",
+    "duracaoSegundos": 251,
+    "youtubeUrl": "https://www.youtube.com/watch?v=kPa7bsKwL-c&list=RDkPa7bsKwL-c&start_radio=1"
+  }
+]

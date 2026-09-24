@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions name="EstatisticasMusicaisService"
+  targetNamespace="http://musicas.exemplo.com/estatisticas"
+  xmlns:tns="http://musicas.exemplo.com/estatisticas"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+  xmlns="http://schemas.xmlsoap.org/wsdl/">
+
+  <types>
+    <xsd:schema targetNamespace="http://musicas.exemplo.com/estatisticas">
+
+      <xsd:element name="ContarMusicasPorDecadaRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="decada" type="xsd:int"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ContarMusicasPorDecadaResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="decada" type="xsd:int"/>
+            <xsd:element name="quantidade" type="xsd:int"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="CalcularMediaDuracaoPorDecadaRequest">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="decada" type="xsd:int"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="CalcularMediaDuracaoPorDecadaResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="decada" type="xsd:int"/>
+            <xsd:element name="mediaSegundos" type="xsd:decimal"/>
+            <xsd:element name="quantidadeMusicas" type="xsd:int"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+      <xsd:element name="DecadaComMaisMusicasRequest">
+        <xsd:complexType>
+          <xsd:sequence/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DecadaComMaisMusicasResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="decada" type="xsd:int"/>
+            <xsd:element name="quantidade" type="xsd:int"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+
+    </xsd:schema>
+  </types>
+
+  <message name="ContarMusicasPorDecadaInput">
+    <part name="parameters" element="tns:ContarMusicasPorDecadaRequest"/>
+  </message>
+  <message name="ContarMusicasPorDecadaOutput">
+    <part name="parameters" element="tns:ContarMusicasPorDecadaResponse"/>
+  </message>
+
+  <message name="CalcularMediaDuracaoPorDecadaInput">
+    <part name="parameters" element="tns:CalcularMediaDuracaoPorDecadaRequest"/>
+  </message>
+  <message name="CalcularMediaDuracaoPorDecadaOutput">
+    <part name="parameters" element="tns:CalcularMediaDuracaoPorDecadaResponse"/>
+  </message>
+
+  <message name="DecadaComMaisMusicasInput">
+    <part name="parameters" element="tns:DecadaComMaisMusicasRequest"/>
+  </message>
+  <message name="DecadaComMaisMusicasOutput">
+    <part name="parameters" element="tns:DecadaComMaisMusicasResponse"/>
+  </message>
+
+  <portType name="EstatisticasMusicaisPortType">
+    <operation name="ContarMusicasPorDecada">
+      <input message="tns:ContarMusicasPorDecadaInput"/>
+      <output message="tns:ContarMusicasPorDecadaOutput"/>
+    </operation>
+    <operation name="CalcularMediaDuracaoPorDecada">
+      <input message="tns:CalcularMediaDuracaoPorDecadaInput"/>
+      <output message="tns:CalcularMediaDuracaoPorDecadaOutput"/>
+    </operation>
+    <operation name="DecadaComMaisMusicas">
+      <input message="tns:DecadaComMaisMusicasInput"/>
+      <output message="tns:DecadaComMaisMusicasOutput"/>
+    </operation>
+  </portType>
+
+  <binding name="EstatisticasMusicaisBinding" type="tns:EstatisticasMusicaisPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+
+    <operation name="ContarMusicasPorDecada">
+      <soap:operation soapAction="http://musicas.exemplo.com/estatisticas/ContarMusicasPorDecada"/>
+      <input><soap:body use="literal"/></input>
+      <output><soap:body use="literal"/></output>
+    </operation>
+
+    <operation name="CalcularMediaDuracaoPorDecada">
+      <soap:operation soapAction="http://musicas.exemplo.com/estatisticas/CalcularMediaDuracaoPorDecada"/>
+      <input><soap:body use="literal"/></input>
+      <output><soap:body use="literal"/></output>
+    </operation>
+
+    <operation name="DecadaComMaisMusicas">
+      <soap:operation soapAction="http://musicas.exemplo.com/estatisticas/DecadaComMaisMusicas"/>
+      <input><soap:body use="literal"/></input>
+      <output><soap:body use="literal"/></output>
+    </operation>
+  </binding>
+
+  <service name="EstatisticasMusicaisService">
+    <port name="EstatisticasMusicaisPort" binding="tns:EstatisticasMusicaisBinding">
+      <soap:address location="http://localhost:8000/estatisticas"/>
+    </port>
+  </service>
+
+</definitions>
