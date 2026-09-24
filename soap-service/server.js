@@ -5,7 +5,7 @@ const soap = require('soap');
 
 const estatisticasService = require('./estatisticasService');
 
-const PORT = process.env.SOAP_PORT || 8000;
+const PORT = process.env.PORT || process.env.SOAP_PORT || 8000;
 
 // Implementação das operações, no formato exigido pelo pacote "soap"
 const service = {

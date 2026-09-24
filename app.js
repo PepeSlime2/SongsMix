@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000';
+const API_URL = 'https://songsmix.onrender.com';
 const state = { tracks: [], filtered: [], currentIndex: -1, isPlaying: false, favorites: new Set(JSON.parse(localStorage.getItem('mixtape-favorites') || '[]')), audioContext: null, oscillator: null, gain: null, timer: null, startedAt: 0, elapsed: 0 };
 
 const elements = {
