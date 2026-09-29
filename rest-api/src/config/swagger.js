@@ -10,7 +10,11 @@ const options = {
         'API REST para consulta e gestão de um catálogo de músicas organizado por décadas ' +
         '(anos 50 até hoje). Trabalho acadêmico - Capítulo 12/13 (REST + segurança + documentação + testes).',
     },
-    servers: [{ url: 'http://localhost:3000', description: 'Servidor local' }],
+    servers: [
+      process.env.NODE_ENV === 'production'
+        ? { url: 'https://songsmix.onrender.com', description: 'Servidor publicado' }
+        : { url: 'http://localhost:3000', description: 'Servidor local' },
+    ],
     components: {
       securitySchemes: {
         bearerAuth: {
