@@ -1,16 +1,11 @@
 # Catálogo de Músicas por Década — REST + SOAP
 
-## 0. Frontend anos 90
+## 0. Aplicação publicada
 
-Com a API REST rodando, abra outro terminal e execute:
-
-```bash
-cd frontend
-npm start
-```
-
-- Interface: http://localhost:5173
-- O frontend consome `GET http://localhost:3000/musicas`.
+- **Frontend:** https://songs-mix.vercel.app/
+- **API REST:** https://songsmix.onrender.com/
+- **Swagger/OpenAPI:** https://songsmix.onrender.com/api-docs
+- O frontend consome a API REST publicada. A documentação Swagger publicada também executa as chamadas contra a API no Render.
 - Inclui busca por título/artista, filtros por década e gênero, favoritos locais e player visual.
 
 Trabalho: duas aplicações complementares sobre o mesmo catálogo de músicas (anos 50 até hoje).
@@ -21,7 +16,8 @@ Trabalho: duas aplicações complementares sobre o mesmo catálogo de músicas (
 Os dois serviços leem a mesma base (`rest-api/src/data/musicas.json`), reforçando que são complementares.
 
 ## Nomes dos integrantes do grupo
-> Preencher: Nome completo — RA/matrícula (Pessoa A e Pessoa B).
+- **Pessoa A:** Pedro Henrique Ribeiro dos Santos
+- **Pessoa B:** Danilo Ferreira Cury
 
 ## 1. Rodando a API REST
 
@@ -31,8 +27,10 @@ npm install
 npm start
 ```
 
-- API: http://localhost:3000
-- Swagger UI: **http://localhost:3000/api-docs** (print isso pro relatório)
+- API local: http://localhost:3000
+- Swagger local: http://localhost:3000/api-docs
+- API publicada: https://songsmix.onrender.com/
+- Swagger publicado: **https://songsmix.onrender.com/api-docs** (use este endereço para a evidência online)
 - Login (gera o token JWT): `POST http://localhost:3000/auth/login`
   ```json
   { "usuario": "admin", "senha": "1234" }
@@ -70,7 +68,7 @@ Inclui:
 
 Printe o terminal com `npm test` passando (evidência pedida no enunciado).
 
-## 2. Rodando o serviço SOAP
+## 2. Rodando o serviço SOAP localmente
 
 Em outro terminal:
 
@@ -82,6 +80,7 @@ npm start
 
 - WSDL: **http://localhost:8000/estatisticas?wsdl** (abra no navegador ou no SoapUI para importar)
 - Endpoint SOAP: `http://localhost:8000/estatisticas`
+- O serviço SOAP é executado localmente; mantenha o terminal do servidor aberto enquanto usa o cliente ou o SoapUI.
 
 ### Operações disponíveis
 - `ContarMusicasPorDecada(decada)` → `{ decada, quantidade }`
@@ -112,20 +111,22 @@ Testes unitários da lógica de cálculo (`estatisticasService.js`), independent
 
 ## 3. Checklist de evidências para o relatório
 
-- [ ] API REST rodando (print do Postman/Insomnia batendo em `/musicas`)
+- [ ] Frontend publicado aberto: https://songs-mix.vercel.app/
+- [ ] API REST publicada consultada pelo Swagger: https://songsmix.onrender.com/api-docs (`GET /musicas`)
 - [ ] `POST /musicas` sem token → 401
 - [ ] `POST /musicas` com token → 201 (ou 200 em outra rota protegida)
-- [ ] Swagger UI aberto no navegador (`/api-docs`)
+- [ ] Swagger/OpenAPI publicado aberto no navegador
 - [ ] Terminal com `npm test` passando (rest-api)
-- [ ] SoapUI ou `npm run client` chamando o serviço SOAP e recebendo resposta
+- [ ] WSDL local aberto em `http://localhost:8000/estatisticas?wsdl`
+- [ ] SoapUI ou `npm run client` chamando o serviço SOAP local e recebendo resposta
 - [ ] Terminal com `npm test` passando (soap-service)
 - [ ] Link do repositório no GitHub
 - [ ] Nome dos integrantes do grupo
 
-## 4. Divisão sugerida da dupla
+## 4. Divisão da dupla
 
-- **Pessoa A** — API REST: rotas, JWT, Swagger, testes Jest/Supertest.
-- **Pessoa B** — Serviço SOAP: WSDL, implementação das operações, cliente de teste, testes unitários.
+- **Pedro Henrique Ribeiro dos Santos (Pessoa A)** — API REST: rotas, JWT, Swagger, testes Jest/Supertest.
+- **Danilo Ferreira Cury (Pessoa B)** — Serviço SOAP: WSDL, implementação das operações, cliente de teste, testes unitários.
 - **Juntos**: dados compartilhados (`musicas.json`), este README, prints finais e (se pedido) vídeo de demonstração.
 
 ## 5. Estrutura do repositório
