@@ -22,7 +22,7 @@ const options = {
           scheme: 'bearer',
           bearerFormat: 'JWT',
           description:
-            'Cole o token retornado por POST /auth/login. O Swagger enviará automaticamente o cabeçalho Authorization: Bearer <token>.',
+            'Cole apenas o token retornado por POST /auth/login, sem prefixo. O Swagger aplica automaticamente o esquema bearer ao cabeçalho Authorization.',
         },
       },
     },
